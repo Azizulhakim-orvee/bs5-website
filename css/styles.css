@@ -66,8 +66,17 @@ body {
 }
 
 .gallary img {
-  border-radius: 4%;
+  border-radius: 2%;
 }
 .services {
   color: #fff;
+}
+
+.raj{
+  color:black;
+  font-weight: 900;
+}
+
+a:hover {
+  background-color: yellow;
 }
