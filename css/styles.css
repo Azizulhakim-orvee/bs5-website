@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.feature {
+  color: #fff;
+  margin-top: 4rem;
+  font-size: 1.25rem;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gra-2 {
+  background: rgb(11, 11, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(11, 11, 107, 1) 0%,
+    rgba(107, 11, 11, 1) 100%,
+    rgba(30, 122, 95, 1) 100%
+  );
+}
+
+.gallary,
+.orvee {
+  background-color: whitesmoke;
+}
+
+.gallary img {
+  border-radius: 4%;
+}
+.services {
+  color: #fff;
+}
